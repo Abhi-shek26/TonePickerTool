@@ -27,10 +27,8 @@ const TonePicker = ({ onToneChange, onUndo, onRedo, onReset, canUndo, canRedo })
       </div>
 
       <div className="controls-container">
-        <div className="history-controls">
-          <button onClick={onUndo} disabled={!canUndo}>Undo</button>
-          <button onClick={onRedo} disabled={!canRedo}>Redo</button>
-        </div>
+        <button className="history-button" onClick={onUndo} disabled={!canUndo}>Undo</button>
+        <button className="history-button" onClick={onRedo} disabled={!canRedo}>Redo</button>
         <button className="reset-button" onClick={onReset}>Reset</button>
       </div>
     </div>
