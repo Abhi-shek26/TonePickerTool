@@ -3,17 +3,22 @@
 The **Tone Picker** is a modern web application that allows users to adjust the tone of their text using a simple, intuitive interface.  
 By leveraging the **Mistral AI API**, it can rewrite text to be more **formal, casual, direct, or diplomatic**.  
 
-This project was developed as a **take-home assessment**, showcasing a full-stack implementation with a focus on **code quality, user experience, and robust architecture**.
+
 
 ---
 
 ## 🚀 Final Output & Links
 - **Live Application:** [Tone Picker](https://tone-picker-tool.vercel.app/)
+- **Backend Link:** (https://tonepickertool.onrender.com/)
 - **Live Demo:** 
+
+
+https://github.com/user-attachments/assets/0931b344-cb60-477d-b162-83e0b9118a0a
+
 
 ---
 
-## 📊 Evaluation Criteria Breakdown
+## 📊 Key features
 
 ### 1. Code Quality & Organization
 - **Clean Monorepo Structure**: Client (React) + Server (Node.js) separation.  
@@ -30,10 +35,9 @@ This project was developed as a **take-home assessment**, showcasing a full-stac
 - **Loading Feedback**: Spinner + disabled UI during calls.  
 - **Caching**: Identical `(text, tone)` requests cached in-memory for speed & cost reduction.
 
-### 4. UI/UX Design
-- **Modern Dark Mode** + **Neumorphic Style**.  
-- **Color Palette**: Soft navy, charcoal base with pastel blues & muted reds.  
-- **Clear Feedback**: Disabled buttons, loading states, friendly error messages.  
+### 4. UI/UX Design    
+- **Clear Feedback**: Disabled buttons, loading states, friendly error messages.
+- **Clean Interface**: Simple interface with smooth interactions.
 
 ### 5. Documentation (README)
 - Includes setup guide, tech stack, deployment, and architecture breakdown.
@@ -49,8 +53,7 @@ This project was developed as a **take-home assessment**, showcasing a full-stac
 **Frontend**  
 - React (Vite)  
 - Axios  
-- React Icons  
-- CSS3 (Neumorphic Design)  
+- React Icons 
 
 **Backend**  
 - Node.js + Express  
@@ -131,3 +134,4 @@ npm run dev
 ```
 
 The application will open at `http://localhost:5173`.
+
